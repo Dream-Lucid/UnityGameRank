@@ -21,7 +21,7 @@ public class leader : MonoBehaviour
             if (i < 10)
             {
                 var cell = Instantiate(scoreCellPrefab, transform);
-                cell.GetComponent<rank>().SetModel(data);
+                cell.GetComponent<rank>().SetMode(data);
                 i++;
             }
         }
